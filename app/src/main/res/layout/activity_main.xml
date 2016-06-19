@@ -61,6 +61,18 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
-        <include layout="@layout/fragment_button"/>
+       <ViewFlipper
+           android:id="@+id/vf"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+        <include
+            android:id="@+id/container_button"
+            layout="@layout/fragment_button" />
+           <include
+               android:id="@+id/container_acm"
+               layout="@layout/fragment_accelerometer" />
+       </ViewFlipper>
     </RelativeLayout>
+
+
 </android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,74 @@
+<android.support.design.widget.CoordinatorLayout android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="320dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+ 
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="4dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center">
+            <TextView
+                android:id="@+id/tv_x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X value  :"
+                android:textColor="#446688"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_toRightOf="@+id/tv_x"
+                android:layout_width="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#224466"
+                android:layout_height="wrap_content"
+                android:text="0" />
+            <TextView
+                android:id="@+id/tv_y"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Y value  :"
+                android:layout_below="@+id/tv_x"
+                android:layout_marginTop="8dp"
+                android:textColor="#446688"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_toRightOf="@+id/tv_y"
+                android:layout_below="@+id/tv_x"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#224466"
+                android:layout_height="wrap_content"
+                android:text="7" />
+            <TextView
+                android:id="@+id/tv_z"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Z value  :"
+                android:layout_below="@+id/tv_y"
+                android:layout_marginTop="8dp"
+                android:textColor="#446688"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_toRightOf="@+id/tv_z"
+                android:layout_below="@+id/tv_y"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#224466"
+                android:layout_height="wrap_content"
+                android:text="2" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    
+    </android.support.design.widget.CoordinatorLayout>
