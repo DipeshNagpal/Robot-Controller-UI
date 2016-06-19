@@ -25,6 +25,7 @@
         </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>
     <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_voice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:elevation="6dp"
@@ -34,6 +35,7 @@
         app:layout_anchorGravity="bottom|right|end"
         app:layout_anchor="@+id/appbar"/>
     <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_buttons"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:elevation="6dp"
@@ -44,6 +46,7 @@
         app:layout_anchorGravity="bottom|left"
         app:layout_anchor="@+id/appbar"/>
     <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_acm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:rippleColor="#80cbc4"
